@@ -1,0 +1,16 @@
+C:\Users\klifford>tracert reddit.com
+
+Tracing route to reddit.com [151.101.1.140]
+over a maximum of 30 hops:
+
+  1    14 ms    14 ms    15 ms  10.4.64.1
+  2     *        *        *     Request timed out.
+  3     *        *        *     Request timed out.
+  4     *        *        *     Request timed out.
+  5     *        *        *     Request timed out.
+  6     *        *        *     Request timed out.
+  7    13 ms    13 ms    13 ms  151.101.1.140
+
+Trace complete.
+
+C:\Users\klifford>

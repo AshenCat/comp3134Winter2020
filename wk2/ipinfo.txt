@@ -1,0 +1,76 @@
+
+Domain Name: getbootstrap.com
+
+Top Level Domain: COM (Commercial TLD)
+
+DNS Lookup
+
+IP Address: 104.20.30.249
+
+Geolocation: US (United States), N/A, N/A, N/A N/A - Google Maps
+
+Reverse DNS entry: not found
+
+
+
+Checking Domain Name
+
+Domain Name: w3schools.com
+
+Top Level Domain: COM (Commercial TLD)
+
+DNS Lookup
+
+IP Address: 66.29.212.110
+
+Geolocation: US (United States), GA, Georgia, 30339 Atlanta - Google Maps
+
+Reverse DNS: mail.medlinkrecruiting.com
+
+
+
+Checking Domain Name
+
+Domain Name: cloudflare.io
+
+Top Level Domain: IO (British Indian Ocean Territory)
+
+DNS Lookup
+
+IP Address: 54.243.109.39
+
+Geolocation: US (United States), VA, Virginia, 20149 Ashburn - Google Maps
+
+Reverse DNS: ec2-54-243-109-39.compute-1.amazonaws.com
+
+
+
+Checking Domain Name
+
+Domain Name: netflix.ca
+
+Top Level Domain: CA (Canada)
+
+DNS Lookup
+
+IP Address: 52.86.210.197
+
+Geolocation: US (United States), VA, Virginia, 20149 Ashburn - Google Maps
+
+Reverse DNS: ec2-52-86-210-197.compute-1.amazonaws.com
+
+
+
+Checking Domain Name
+
+Domain Name: pathofexile.com
+
+Top Level Domain: COM (Commercial TLD)
+
+DNS Lookup
+
+IP Address: 104.19.186.16
+
+Geolocation: US (United States), N/A, N/A, N/A N/A - Google Maps
+
+Reverse DNS entry: not found

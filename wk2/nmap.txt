@@ -1,0 +1,56 @@
+root@lamp-s-1vcpu-1gb-tor1-01:~# nmap amazon.ca
+
+Starting Nmap 7.60 ( https://nmap.org ) at 2020-01-13 20:18 UTC
+Nmap scan report for amazon.ca (54.239.18.172)
+Host is up (0.035s latency).
+Other addresses for amazon.ca (not scanned): 52.94.225.242 54.239.19.238
+Not shown: 998 closed ports
+PORT    STATE SERVICE
+80/tcp  open  http
+443/tcp open  https
+
+Nmap done: 1 IP address (1 host up) scanned in 1.97 seconds
+root@lamp-s-1vcpu-1gb-tor1-01:~#
+
+
+
+root@lamp-s-1vcpu-1gb-tor1-01:~# nmap -p 22-80 mail.georgebrown.ca
+
+Starting Nmap 7.60 ( https://nmap.org ) at 2020-01-13 20:23 UTC
+Nmap scan report for mail.georgebrown.ca (198.96.84.88)
+Host is up (0.0013s latency).
+Not shown: 58 filtered ports
+PORT   STATE SERVICE
+80/tcp open  http
+
+Nmap done: 1 IP address (1 host up) scanned in 2.24 seconds
+root@lamp-s-1vcpu-1gb-tor1-01:~#
+
+
+
+root@lamp-s-1vcpu-1gb-tor1-01:~# nmap -p 22 mail.georgebrown.ca
+
+Starting Nmap 7.60 ( https://nmap.org ) at 2020-01-13 20:24 UTC
+Nmap scan report for mail.georgebrown.ca (198.96.84.88)
+Host is up (0.0014s latency).
+
+PORT   STATE    SERVICE
+22/tcp filtered ssh
+
+Nmap done: 1 IP address (1 host up) scanned in 0.51 seconds
+root@lamp-s-1vcpu-1gb-tor1-01:~#
+
+
+
+root@lamp-s-1vcpu-1gb-tor1-01:~# nmap -F mail.georgebrown.ca
+
+Starting Nmap 7.60 ( https://nmap.org ) at 2020-01-13 20:25 UTC
+Nmap scan report for mail.georgebrown.ca (198.96.84.88)
+Host is up (0.00091s latency).
+Not shown: 98 filtered ports
+PORT    STATE SERVICE
+80/tcp  open  http
+443/tcp open  https
+
+Nmap done: 1 IP address (1 host up) scanned in 5.71 seconds
+root@lamp-s-1vcpu-1gb-tor1-01:~#

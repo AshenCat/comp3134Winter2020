@@ -1,0 +1,14 @@
+C:\Users\klifford>ping 159.89.117.125
+
+Pinging 159.89.117.125 with 32 bytes of data:
+Reply from 159.89.117.125: bytes=32 time=4ms TTL=57
+Reply from 159.89.117.125: bytes=32 time=4ms TTL=57
+Reply from 159.89.117.125: bytes=32 time=4ms TTL=57
+Reply from 159.89.117.125: bytes=32 time=5ms TTL=57
+
+Ping statistics for 159.89.117.125:
+    Packets: Sent = 4, Received = 4, Lost = 0 (0% loss),
+Approximate round trip times in milli-seconds:
+    Minimum = 4ms, Maximum = 5ms, Average = 4ms
+
+C:\Users\klifford>
