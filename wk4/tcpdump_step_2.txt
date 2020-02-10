@@ -1,0 +1,12 @@
+root@lamp-s-1vcpu-1gb-tor1-01:~# tcpdump -c 5 -i eth0
+tcpdump: verbose output suppressed, use -v or -vv for full protocol decode
+listening on eth0, link-type EN10MB (Ethernet), capture size 262144 bytes
+01:17:16.285701 IP lamp-s-1vcpu-1gb-tor1-01.ssh > CPEf81d0f85ca13-CMf81d0f85ca10.cpe.net.cable.rogers.com.49301: Flags [P.], seq 755115887:755116015, ack 1260489271, win 501, length 128
+01:17:16.285867 IP lamp-s-1vcpu-1gb-tor1-01.ssh > CPEf81d0f85ca13-CMf81d0f85ca10.cpe.net.cable.rogers.com.49301: Flags [P.], seq 128:192, ack 1, win 501, length 64
+01:17:16.285989 IP lamp-s-1vcpu-1gb-tor1-01.ssh > CPEf81d0f85ca13-CMf81d0f85ca10.cpe.net.cable.rogers.com.49301: Flags [P.], seq 192:320, ack 1, win 501, length 128
+01:17:16.286065 IP lamp-s-1vcpu-1gb-tor1-01.ssh > CPEf81d0f85ca13-CMf81d0f85ca10.cpe.net.cable.rogers.com.49301: Flags [P.], seq 320:384, ack 1, win 501, length 64
+01:17:16.287823 IP lamp-s-1vcpu-1gb-tor1-01.ssh > CPEf81d0f85ca13-CMf81d0f85ca10.cpe.net.cable.rogers.com.49301: Flags [P.], seq 384:624, ack 1, win 501, length 240
+5 packets captured
+9 packets received by filter
+0 packets dropped by kernel
+root@lamp-s-1vcpu-1gb-tor1-01:~#

@@ -1,0 +1,16 @@
+root@lamp-s-1vcpu-1gb-tor1-01:~# tcpdump -r 0001.pcap
+reading from file 0001.pcap, link-type EN10MB (Ethernet)
+01:20:06.265331 IP lamp-s-1vcpu-1gb-tor1-01.ssh > CPEf81d0f85ca13-CMf81d0f85ca10.cpe.net.cable.rogers.com.49301: Flags [P.], seq 760505951:760506015, ack 1260501415, win 501, length 64
+01:20:06.265408 IP lamp-s-1vcpu-1gb-tor1-01.ssh > CPEf81d0f85ca13-CMf81d0f85ca10.cpe.net.cable.rogers.com.49301: Flags [P.], seq 64:192, ack 1, win 501, length 128
+01:20:06.265456 IP lamp-s-1vcpu-1gb-tor1-01.ssh > CPEf81d0f85ca13-CMf81d0f85ca10.cpe.net.cable.rogers.com.49301: Flags [P.], seq 192:256, ack 1, win 501, length 64
+01:20:06.300441 IP CPEf81d0f85ca13-CMf81d0f85ca10.cpe.net.cable.rogers.com.49301 > lamp-s-1vcpu-1gb-tor1-01.ssh: Flags [.], ack 192, win 4114, length 0
+01:20:06.533846 IP lamp-s-1vcpu-1gb-tor1-01.ssh > CPEf81d0f85ca13-CMf81d0f85ca10.cpe.net.cable.rogers.com.49301: Flags [P.], seq 192:256, ack 1, win 501, length 64
+01:20:06.589118 IP CPEf81d0f85ca13-CMf81d0f85ca10.cpe.net.cable.rogers.com.49301 > lamp-s-1vcpu-1gb-tor1-01.ssh: Flags [.], ack 256, win 4114, length 0
+01:20:07.219515 IP 218.92.0.211.11402 > lamp-s-1vcpu-1gb-tor1-01.ssh: Flags [P.], seq 715983921:715984777, ack 3441474945, win 229, options [nop,nop,TS val 559046842 ecr 1482528671], length 856
+01:20:07.345802 IP lamp-s-1vcpu-1gb-tor1-01.ssh > 218.92.0.211.21505: Flags [S.], seq 203199683, ack 2831171349, win 65160, options [mss 1460,sackOK,TS val 1482531511 ecr 559044600,nop,wscale 7], length 0
+01:20:09.747773 IP 218.92.0.211.11402 > lamp-s-1vcpu-1gb-tor1-01.ssh: Flags [FP.], seq 856:880, ack 1, win 229, options [nop,nop,TS val 559047474 ecr 1482528671], length 24
+01:20:10.673879 IP lamp-s-1vcpu-1gb-tor1-01.ssh > 218.92.0.211.41136: Flags [S.], seq 232566088, ack 381285550, win 65160, options [mss 1460,sackOK,TS val 1482534839 ecr 559043349,nop,wscale 7], length 0
+01:20:10.911169 IP 218.92.0.211.41136 > lamp-s-1vcpu-1gb-tor1-01.ssh: Flags [R], seq 381285550, win 0, length 0
+01:20:12.227309 IP 218.92.0.211.11402 > lamp-s-1vcpu-1gb-tor1-01.ssh: Flags [FP.], seq 856:880, ack 1, win 229, options [nop,nop,TS val 559048094 ecr 1482528671], length 24
+01:20:12.227369 IP lamp-s-1vcpu-1gb-tor1-01.ssh > 218.92.0.211.11402: Flags [.], ack 4294967281, win 510, options [nop,nop,TS val 1482536393 ecr 559046160,nop,nop,sack 1 {856:881}], length 0
+root@lamp-s-1vcpu-1gb-tor1-01:~#

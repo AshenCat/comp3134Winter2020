@@ -1,0 +1,8 @@
+root@lamp-s-1vcpu-1gb-tor1-01:~# tcpdump -D
+1.eth0 [Up, Running]
+2.any (Pseudo-device that captures on all interfaces) [Up, Running]
+3.lo [Up, Running, Loopback]
+4.nflog (Linux netfilter log (NFLOG) interface)
+5.nfqueue (Linux netfilter queue (NFQUEUE) interface)
+6.usbmon1 (USB bus number 1)
+root@lamp-s-1vcpu-1gb-tor1-01:~#
