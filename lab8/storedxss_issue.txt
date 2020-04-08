@@ -1,0 +1,1 @@
+The page was being redirected to the php file in the script. This is definitely a security issue

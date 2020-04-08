@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>POOGAHs</title>
+</head>
+<body>
+    <h1>POOGAH REFLECTED XSS</h1>
+    <form method="GET" id="formt">
+        <input type="text" name="form1" id="form1">
+        <button type="submit">Submit</button>
+    </form>
+    <br>
+    <div id="division"></div>
+    <script>
+        let form = document.getElementById("formt");
+        form.onsubmit = function(e) {
+            e.preventDefault();
+            var textValue = document.getElementById("form1").value;
+            document.getElementById("division").innerHTML = textValue;
+        }
+        
+    </script>
+</body>
+</html>
