@@ -29,7 +29,8 @@
         $stmt->bind_param("s",$_GET['inp']);
         $stmt->execute();
         $result=$stmt->get_result();
-	echo $sql;
+    echo $sql;
+    var_dump($result);
 	echo "<br><br>";
         // $result=$conn->query($sql);
         if($result->num_rows>0){
@@ -43,6 +44,7 @@
         else {
             echo "0 results";
         }
+        $stmt->close();
         $conn->close();
     ?>
 </body>
