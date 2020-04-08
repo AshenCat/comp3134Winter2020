@@ -14,7 +14,7 @@
     <?php
         $servername="localhost";
         $username="root";
-        $password="9e6187463576549e197a4c9a8debdb408fe3eddca7146c38";
+        $password="";
         $dbname="menagerie";
 
         $conn=new mysqli($servername,$username,$password,$dbname);
