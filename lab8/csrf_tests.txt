@@ -1,0 +1,2 @@
+1.) at activity C, csrf were possible because the forms have no unique value to validate their sources.
+2.) at activity F, csrf wasn't possible because there's a unique hidden value in the form that is being checked everytime forms are submitted.
