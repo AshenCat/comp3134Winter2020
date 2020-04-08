@@ -23,7 +23,7 @@
             die("Connection failed: ".$conn->connect_error);
         }
 
-        $sql = isset($_GET['inp']) ? "select * from users where firstname='".$_GET['inp']."';" : "select * from users;";
+        $sql = isset($_GET['inp']) ? "select * from users where firstname='".$_GET['inp']."' and active=1;" : "select * from users where active=1;";
 	echo $sql;
 	echo "<br><br>";
         $result=$conn->query($sql);

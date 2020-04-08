@@ -22,17 +22,10 @@
         if($conn->connect_error) {
             die("Connection failed: ".$conn->connect_error);
         }
-
-        // $sql = isset($_GET['inp']) ? "select * from users where firstname='".$_GET['inp']."';" : "select * from users;";
-        $sql = "select * from users where firstname=? and active=1";
-        $stmt = $conn->prepare($sql);
-        $stmt->bind_param("s",$_GET['inp']);
-        $stmt->execute();
-        $result=$stmt->get_result();
-    echo $sql;
-    var_dump($result);
-	echo "<br><br>";
-        // $result=$conn->query($sql);
+        $stmt = $conn->prepare("SELECT * FROM users where firstname = ? and active = 1");
+	$stmt->bind_param("s",$_GET['inp']);
+	$stmt->execute();
+	$result = $stmt->get_result();
         if($result->num_rows>0){
             while($row=$result->fetch_assoc()) {
                 echo "id: ".$row["ID"]."&emsp;username: ".$row["username"];
