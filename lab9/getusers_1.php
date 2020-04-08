@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -12,25 +13,27 @@
         <button type="submit">Submit</button>
     </form>
     <?php
-        $servername="localhost:3306";
-        $username="root";
-        $password="9e6187463576549e197a4c9a8debdb408fe3eddca7146c38";
+        $servername="localhost";
+        $username="newuser";
+        $password="newuser";
         $dbname="menagerie";
 
         $conn=new mysqli($servername,$username,$password,$dbname);
-
         if($conn->connect_error) {
             die("Connection failed: ".$conn->connect_error);
         }
 
-        $sql = "select * lastname FROM users";
+        $sql = isset($_GET['inp']) ? "select * from users where firstname='".$_GET['inp']."';" : "select * from users;";
+	echo $sql;
+	echo "<br><br>";
         $result=$conn->query($sql);
         if($result->num_rows>0){
             while($row=$result->fetch_assoc()) {
-                echo "id: ".$row["ID"]." - username ".$row["username"];
-                echo "firstname: ".$row["firstname"]." - lastname ".$row["lastname"];
-                echo "email: ".$row["email"]." - active ".$row["active"];
-            }
+                echo "id: ".$row["ID"]."&emsp;username: ".$row["username"];
+                echo "&emsp;firstname: ".$row["firstname"]."&emsp;lastname: ".$row["lastname"];
+                echo "&emsp;email: ".$row["email"]."&emsp;active: ".$row["active"];
+            	echo "<br>";
+	    }
         }
         else {
             echo "0 results";
