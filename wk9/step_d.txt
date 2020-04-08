@@ -1,0 +1,6 @@
+What you see on the browser (the issue)
+    regular html
+What tactic subcategory this issue would be categorized as
+    Request Injection - most commonly used when trying to attack database queries or scouting local directories
+What sensitive information is given by this page
+    nothing "yet" for this part

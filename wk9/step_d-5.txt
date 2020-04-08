@@ -1,0 +1,9 @@
+What you see on the browser (the issue)
+    This is a vulnerability. The page isn't secure which compromises the system's integrity
+
+What tactic subcategory this issue would be categorized as
+    Directory Traversal using percent encoded versions of characters
+    
+What sensitive information is given by this page
+    This makes the attacker know the contents of folders and the structure of the apache server files. It will allow them to
+    gain more information by opening files and analyzing them.

@@ -1,0 +1,46 @@
+######################
+# Command
+######################
+
+root@lamp-s-1vcpu-1gb-tor1-01:~# tcpdump udp -i lo port 14550
+
+AND
+
+echo "Is this working?" > /dev/udp/127.0.0.1/14550
+echo "POGGERS!" > /dev/udp/127.0.0.1/14550
+echo "It's working!" > /dev/udp/127.0.0.1/14550
+
+
+######################
+# Output
+######################
+
+tcpdump: verbose output suppressed, use -v or -vv for full protocol decode
+listening on lo, link-type EN10MB (Ethernet), capture size 262144 bytes
+19:25:57.342738 IP localhost.60872 > localhost.14550: UDP, length 17
+19:26:08.955890 IP localhost.32794 > localhost.14550: UDP, length 9
+19:26:20.213442 IP localhost.59649 > localhost.14550: UDP, length 9
+
+######################
+# Source Host
+######################
+
+127.0.0.1 (localhost), 127.0.0.1 (localhost), 127.0.0.1 (localhost)
+
+######################
+# Source Port
+######################
+
+60872, 32794, 59649 respectively
+
+######################
+# destination host
+######################
+
+127.0.0.1 (localhost), 127.0.0.1 (localhost), 127.0.0.1 (localhost)
+
+######################
+# destination port
+######################
+
+14550, 14550, 14550

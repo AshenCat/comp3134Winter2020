@@ -1,0 +1,54 @@
+1.) Task no. 1 - Domain: digitalocean.com
+name: __cfduid
+value: da956af132918da2d9d84a4c444a7aa9a1573577979
+path: /
+domain: .digitalocean.com
+
+2.) Task no. 2 - Domain: github.com
+    a - Task no. 2 - Domain: github.com
+    b - [
+        {
+            name: authenticity_token,
+            value: dYux3lrWTdrcxoxDor15m0uJwtl/wR2Ggj0ckUWCVwpwfegCMmK25E0QEnVlW12Aam3smbjJu5PK99alESKpyg==
+        },
+        {
+            name: timestamp,
+            value: 1585593282321
+        },
+        {
+            name: timestamp_secret,
+            value: 86dc337ac2768fec6c0956c2ff0439bb2e29c58c40552e22e9339558e1051f27
+        },
+        {
+            name: csrf,
+            value: wOQ5962ypvZG3cmOdb3gZOLkfGhm2ILK376ay6L+DFjLQJx84bQFpMRrmu40Fa3W1EwEo7PGfYYpGfzMCE34kw==
+        },
+        {
+            name: ga_id,
+            value:
+        }
+    ]
+
+    c - method: POST
+
+3.) curl -i https://www.youtube.com/results?search_query=happy
+
+4.) 
+root@lamp-s-1vcpu-1gb-tor1-01:~# sudo hping3 --faster -S -p 3750 -c 1000 34.249.213.181
+HPING 34.249.213.181 (eth0 34.249.213.181): S set, 40 headers + 0 data bytes
+
+--- 34.249.213.181 hping statistic ---
+1000 packets transmitted, 0 packets received, 100% packet loss
+round-trip min/avg/max = 0.0/0.0/0.0 ms
+root@lamp-s-1vcpu-1gb-tor1-01:~#
+
+
+
+5.) 
+a - www.bb-gbc.blackboard.ca
+b - 
+<!-- global_nav.jsp -->
+<!-- extid:bb/8fafc8ea4bb84a67b0cc4f23790adf3c: -->
+<!-- extid:bb/35b3b0d7756a4860a1f50cbfcad1d660: --> 
+<!-- extid:portal/login: -->
+<!-- extid:bb/plugin.module.studentapp.title: --> 
