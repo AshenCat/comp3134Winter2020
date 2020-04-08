@@ -12,9 +12,9 @@
         <button type="submit">Submit</button>
     </form>
     <?php
-        $servername="localhost";
+        $servername="localhost:3306";
         $username="root";
-        $password="";
+        $password="9e6187463576549e197a4c9a8debdb408fe3eddca7146c38";
         $dbname="menagerie";
 
         $conn=new mysqli($servername,$username,$password,$dbname);
